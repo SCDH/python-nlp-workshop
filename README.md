@@ -6,8 +6,8 @@ Dieses Repository beinhaltet alle relevanten Materialien für den Workshop.
 
 ## Organisatorisches
 
-* 15. Juni 2023, 14-18 Uhr  
-* 16. Juni 2023, 9-13 Uhr
+* 15.Juni 2023, 14-18 Uhr  
+* 16.Juni 2023, 9-13 Uhr
 
 https://www.uni-muenster.de/DH/cdh/dh-zertifikat/dh-veranstaltungen-wwu/index.html
 
