@@ -35,15 +35,14 @@
 	* Visualizer
 	* Named Entity Recognition
 
-Zusatz:
+## Zusatz
 	* Filtern nach POS Tags
 	* Nominalphrasen erkennen
 	* Cosine Similarity
 	* Regex Hardcore Kurs
 
----
-
 ## Offene Themen
+
 	- Regex
 	- Umlaute / Encoding
 	- Metadaten
