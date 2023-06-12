@@ -1,6 +1,6 @@
-# Workshop: NLP mit Python - Infomaterial
+# Workshop: Python für Geisteswissenschaftler II - Einführung in NLP
 
-**03. Juni 2022 - Service Center for Digital Humanities (SCDH) Uni Münster**
+**Service Center for Digital Humanities (SCDH) Uni Münster**
 
 ## Jupyter Notebooks
 
