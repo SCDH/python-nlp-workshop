@@ -1,8 +1,8 @@
-# Workshop: Python für Geisteswissenschaftler II - Einführung in NLP
+# Workshop: Python für Geisteswissenschaftler II, inkl. Einführung in NLP
 
 **Service Center for Digital Humanities (SCDH) Uni Münster**
 
-## Jupyter Notebooks
+# Jupyter Notebooks
 
 1. Am Ende jeder Zelle kann etwas ausgegeben werden, indem man einfach die Variable oder den Ausdruck schreibt. Es ist kein `print` erforderlich.
 
@@ -12,28 +12,29 @@
 
 4. Die Ausgabe von Zellen lässt sich im Rechtsklick-Menü mit `Clear Outputs` löschen. Außerdem gibt es die Funktion `Enable Scrolling for Outputs`, die das Outputfenster in seiner Höhe begrenzt.
 
-## Spacy im Notebook
+# Bibliotheken in Notebooks einsetzen
 
-1. Spacy installieren: 
+Um bestimmte Bibliotheken zu nutzen, die außerhalb(!) der Standardbibliotheken liegen, wie Spacy und Pandas, muss man diese zuerst installieren.  
+Beispielsweise:
 
 ```python
 !pip install spacy
 ```
 (Dieser Vorgang ist pro Notebook nur einmal notwendig. Danach können diese Zeilen mit einem vorangestellten `#` auskommentiert werden.)
 
-2. Deutsches Language Model für Spacy installieren:  
+Anschließend müssen diese Bibliotheken importiert werden.  
 
 ```python
-!python -m spacy download de_core_news_sm
+import spacy
 ```
-Übersicht aller Models: https://spacy.io/usage/models  
-(Dieser Vorgang ist pro Notebook [eigentlich sogar pro VM-Instanz] nur einmal notwendig. Danach kann diese Zeile mit einem vorangestellten `#` auskommentiert werden.)
+
+Standardbibliotheken, wie `re` oder `blob` müssen NUR importiert werden, da sie in Python bereits enthalten sind.  
 
 # Python
 
 _Literaturhinweis_: Viele dieser Beispiele entstammen aus: https://www.w3schools.com/python
 
-### Einige Grundbegriffe
+## Einige Grundbegriffe
 
 **Variablen**
 
@@ -69,30 +70,26 @@ def add_one_function(n):
 
 add_one_function(5) # Gibt "6" zurück
 ```
-    
-    
-    
 
-
-### Einrückung
+## Einrückung
 
 Python nutzt Einrückungen, um Code-Teile voneinander zu trennen. Siehe:
 
 ```python=
 for item in item_list:
-    print(item)
+    print(item) # diese Zeile beginnt mit 4 Leerzeichen (Whitespaces)
 ```
 
 Andere Sprachen, etwa _JavaScript_, nutzen zu diesem Zweck geschweifte Klammern:
 
 ```js=
 for item in item_list {
-print(item) # Das "print" wird der Lesbarkeit halber i.d.R. auch eingerückt
+print(item) // Das "print" wird der Lesbarkeit halber i.d.R. auch eingerückt
 }
 ```
 _Hinweis_: Eine Python-Einrückung ist definiert auf einen Tab(ulator). Ein Tab ist definiert als 4 Leerzeichen.
 
-### Variablen
+## Variablen
 
 Variablen können Daten speichern. Python kennt kein Kommando, um Variablen zu deklarieren (wie etwa in Java). Stattdessen wird der Variablen direkt ein Wert zugewiesen. (Sie wird *initialisiert*.)
 ```python
@@ -105,7 +102,7 @@ counter += 1  # Zähle 'counter' hoch, entspricht: counter = counter + 1
 counter -= 1  # Ziehe von 'counter' eins ab
 ```
 
-### Tupel
+## Tupel
 
 Mit Tupeln lassen sich mehrere Werte in einer Variablen speichern. Dies kann z.B. nützlich sein, um eine Zeile für eine Tabelle zu speichern.
 ```python
@@ -113,7 +110,7 @@ my_tuple = ('foo','bar','baz')  # Tupel mit drei Werten
 my_tuple.sort() # Sortiert das Tupel, hier ('bar','baz',foo')
 ```
 
-### Schleifen
+## Schleifen
 
 Mit Schleifen iteriert man über Listen und listenähnlichen Objekten. Hier wird jedes Element ausgegeben:
 
@@ -122,7 +119,7 @@ for item in item_list:
     print(item)
 ```
 
-### Wahrheiten und Verzweigungen
+## Wahrheiten und Verzweigungen
 
 Wahrheitswerte, auch Boolsche Ausdrücke (`True`, `False`), können durch bestimmte Operationen erzeugt werden. Sie steuern oft das Verhalten von Verzweigungen.
 
@@ -133,7 +130,7 @@ Wahrheitswerte, auch Boolsche Ausdrücke (`True`, `False`), können durch bestim
     a > b   # a ist größer als b
     a >= b  # a ist kleiner oder gleich b
     
-### Kontrollstrukturen: Bedingte Ausführung
+## Kontrollstrukturen: Bedingte Ausführung
 
 Oft genügt das Prüfen einer einzigen Wahrheitsbedingung:
 
@@ -167,7 +164,7 @@ else:
   print("a is greater than b")
 ```
 
-### Funktionen
+## Funktionen
 
 Eine Funktion ist ein Codeblock, der nur ausgeführt wird, wenn er aufgerufen wird.  
 An Funktionen können Daten, sogenannte Parameter, übergeben werden.  
@@ -204,7 +201,7 @@ my_func(word, corpus=my_corpus)                 # Ein arg und ein kwarg
 my_func(word, corpus=my_corpus, cleaned=True)   # Das zweite kwarg ist ein Boolean
 ```
 
-### Strings und Methoden von Strings
+## Strings und Methoden von Strings
 
 ```python
 my_string[:4]   # Gibt die ersten 4 Zeichen des Strings aus
@@ -229,9 +226,9 @@ my_string.rstrip() # Entfernt Leerzeichen am Ende des Strings
 f'Hi {name}'       # Fügt den Inhalt von 'name' in den String ein
 ```
 
-### Listen und Methoden von Listen
+## Listen und Methoden von Listen
 
- ```python
+```python
 my_list = []  # Erzeugt eine leere Liste
 
 my_list[0]          # Gibt das erste Element zurück
@@ -250,7 +247,7 @@ sorted(my_list)      # Sortiert die Liste (Build-In Funktion)
 ",".join(my_list)    # Fügt alle Elemente kommasepariert zu einem String zusammen
 ```
 
-### Slice mit Listen
+## Slice mit Listen
 
 ```python
 my_list[i:j:n]  # Gibt das i-te bis j-te Element der Liste in n Schritten zurück
@@ -264,7 +261,7 @@ my_list[:-3:-1]  # Die letzten beiden Elemente, umgekehrt
 my_list[-3::-1]  # Alle, außer die letzten beiden, umgekehrt
 ```
 
-### Dictionaries
+## Dictionaries
 
 Dictionaries sind aufgebaut wie Lexika aus dem Alltag: Es gibt einen Key (ein Schlagwort) und einen Value (einen Eintrag). Aufgrund dieser Struktur sind sie nicht direkt iterierbar, d.h. man kann nicht "drüber laufen", wie bei einer Liste. 
 
@@ -285,7 +282,7 @@ my_dict.values()[0]       # TypeError: 'dict_values' object is not subscriptable
 list(my_dict.values())[0] # Jetzt kann das dict wie eine Liste behandelt werden
 ```
 
-### Sortieren
+## Sortieren
 
 **Listen**
 
@@ -320,50 +317,6 @@ from operator import itemgetter
 sorted(my_dict.items(), key=itemgetter(1))
 ```
 
-### Daten importieren
-
-Möchte man externe Daten lesen, etwa Dateien, Datenbank- oder Netzwerkverbindungen, ist es wichtig, diese Kanäle wieder zu schließen. Sonst kommt es zu einem sog. `Memory Leak`: Das Programm hat weiterhin Zugriff auf diese Datei/Ressource und reserviert dafür evtl. große Mengen an Speicher. In Python kann man für solche Fälle den `Context Manager` nutzen.
-
-Öffne eine Datei, lese seinen Inhalt in die Variable `my_text` und schließe die Datei wieder:
-```python=
-with open('some_text.txt', 'r') as file:
-   my_text = file.read()
-```      
-
-Öffne eine CSV Tabelle, schreibe den Inhalt in die Liste `my_table` und schließe die Datei:
-```python=
-import csv 
-
-my_table = []
-with open('import.csv', 'r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-        my_table.append(row)
-```
-
-### Daten exportieren
-
-Schreibe einen Text/String in eine Datei:
-
-```python=
-document = 'a long text'
-
-with open('doc.txt', 'w') as file:
-    file.write(document)
-```
-
-Schreibe aus der Liste `my_list` in `export.csv`:
-```python=
-import csv
-
-with open('export.csv', 'w') as file:
-    writer = csv.writer(file)
-    writer.writerow(['column_name_1','column_name_2'])
-    for row in my_list:
-        writer.writerow(row)
-```     
-
-
 ### Hinweis zu Generatoren
 
 Treten folgende Meldungen auf
@@ -396,9 +349,80 @@ Unveränderbar:
     print(my_string)              # Gibt nach wie vor ' foo ' zurück
     my_string = my_string.strip() # Speichert das Ergebnis und überschreibt 'my_string'
 
+## Dateien öffnen/lesen
 
+Textdateien lassen sich in Python mit dem sog. `Context Manager` öffnen.
+
+Öffne eine **Textdatei**, lese seinen Inhalt in die Variable `my_text` und schließe die Datei wieder:
+```python=
+with open('some_text.txt', 'r') as file:
+   my_text = file.read()
+```      
+
+Möchte man externe Daten lesen, etwa Dateien, Datenbank- oder Netzwerkverbindungen, ist es wichtig zu beachten, dass man diese Kanäle wieder schließt. Sonst kommt es zu einem sog. `Memory Leak`: Das Programm hat weiterhin Zugriff auf diese Datei/Ressource und reserviert dafür evtl. große Mengen an Speicher. 
+
+Tabellen, also auch solche aus Microsoft Excel, öffnet man i.d.R. als **CSV Tabelle**. Folgendes Beispiel nutzt die Funktion `reader()` aus dem `csv` Modul von Python.  
+```python=
+import csv 
+
+my_table = []
+with open('import.csv', 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        my_table.append(row)
+```
+
+## Mehrere Dateien öffnen
+
+Um mehrere Dateien einzulesen, kann man in Python das Modul `glob` verwenden. In Python steht `glob` für das Modul `glob` in der Python-Standardbibliothek. 
+(Der Name `glob` stammt vom Begriff "globbing" ab, der in der Informatik verwendet wird, um das Durchsuchen von Dateisystemen mit Hilfe von Wildcards zu beschreiben)
+
+```python
+from glob import glob
+
+# Alle Dateien mit der Erweiterung ".txt" im aktuellen Verzeichnis finden
+txt_files = glob("*.txt")
+
+# Alle Dateien im "Documents"-Verzeichnis und in seinen Unterverzeichnissen finden
+all_files = glob("Documents/**", recursive=True)
+
+# Alle Dateien mit der Erweiterung ".py" in einem bestimmten Verzeichnisbaum finden
+python_files = glob("my_directory/**/*.py", recursive=True)
+```
+
+In diesem Beispiel werden die Funktionen `glob()` verwendet, um Dateien oder Verzeichnisse basierend auf den angegebenen Mustern zu finden. Wichtig: Die Funktion `glob()` gibt eine Liste von Dateinamen oder Verzeichnispfaden zurück, die den angegebenen Mustern entsprechen. Sie gibt NICHT die Dateien selbst zurück!
+
+Das Sternchen (`*`) steht hier als Platzhalter für beliebige Zeichen und das Fragezeichen (`?`) als Platzhalter für ein einzelnes Zeichen.
+
+## Dateien schreiben
+
+Schreibe einen Text/String in eine Datei:
+
+```python=
+document = 'a long text'
+
+with open('doc.txt', 'w') as file:
+    file.write(document)
+```
+
+Um eine Tabelle zu erstellen, arbeitet man i.d.R. so, dass man jede Zeile in der Tabelle als Liste in Python vorgehalten werden.  
+Die Spalten ergeben sich dann daraus, dass in jeder Liste mehrere Elemente enthalten sind. Beispiel:  
+
+Schreibe aus der Liste `my_list` in `export.csv`:
+```python=
+import csv
+
+with open('export.csv', 'w') as file:
+    writer = csv.writer(file)
+    writer.writerow(['column_name_1','column_name_2']) # Schreibe die Header der Spalten
+    for row in my_list:
+        writer.writerow(row)
+```     
 
 # Pandas
+
+Pandas ist eine beliebte Python Bibliothek, um Daten in Tabellenform zu lesen, analysieren, verändern und zu exportieren.  
+Sie wird sowohl im Bereich NLP als auch in der Data Analysis und im Machine Learning immer häufiger eingesetzt.  
 
 Pandas hat zwei grundlegende **Datenformate**: [Dataframes](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) und [Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series). 
 **Dataframes** sind Datentabellen. Man kann man sie sich vorstellen, wie Exceltabellen. Sie bestehen aus Spalten und Zeilen. **Series** hingegen sind Listen und oft ein Ausschnitt aus einem Dataframe, etwa eine Spalte oder eine Zeile.
@@ -440,18 +464,11 @@ Pandas hat zwei grundlegende **Datenformate**: [Dataframes](https://pandas.pydat
     df.iloc[0,0]      # Das erste Element der ersten Zeile zurückgeben
     s.iloc[0]         # Element an Indexposition 0 zurückgeben
 
-
 # Regulare Ausdrücke / Regular Expressions (Regex)
 
 Reguläre Ausdrücke sind eine Sequenz von Zeichen, die ein Suchmuster beschreiben. Umgangssprachlich formuliert könnte folgender Fall auftreten: "Ich möchte in einem Text alle Datumsangaben finden, die nach dem Muster `MM.DD.YYYY` aufgebaut sind". Sie definieren also das Datum als Muster und suchen anschließend dieses Muster.
 
-### Importieren der Bibliothek
-
-```python
-import re     # Für alle Regex-Operationen notwendig
-```
-
-### re.search()
+## re.search()
 
 Die Funktion `search()` ermöglicht, ein Muster in einem String mithilfe eines regulären Ausdrucks zu suchen. `search()` gibt ein `RE_Match object` zurück, welches Metadaten wie die Position des Matches und den gematchten Text selbst enthält.
 
@@ -459,22 +476,24 @@ Wichtig: `search()` gibt nur das erste(!) Ergebnis zurück
 
 Beispiele:
 ```python
+import re
+
 re.search(r'^Buch', my_string) # Findet das Wort "Buch" am Anfang von `my_string`
 re.search(r'Buch$', my_string) # Findet das Wort "Buch" am Ende von `my_string`
   ```  
-### re.findall()
+## re.findall()
 
 Die Funktion `findall()` gibt eine Liste aller(!) Vorkommnisse zurück:
 ```python
 re.findall(r'Buch', my_string) # Gibt z.B. ['Buch','Buch','Buch'] zurück
  ```   
-### re.sub()
+## re.sub()
 
 Die Funktion `sub()` ermöglicht, alle gefundenen Ausdrücke durch einen neuen zu ersetzen. 
 ```python
 re.sub(r'Buch', 'Foliant', my_string) # Ersetzt alle Wörter "Buch" durch "Foliant"
 ```
-### Übersicht Reguläre Ausdrücke
+## Übersicht Reguläre Ausdrücke
 
 Reguläre Ausdrücke lassen sich auf vielfältige Weise zusammensetzen. Oft werden dazu sog. Tokens eingesetzt, die z.B. eine Gruppe von Zeichen beschreiben, etwa `\d` sind alle Zahlen von 0-9 (digits). Andere bezeichnen Mengen (Quantifier), etwa `*`. Beide Arten können miteinander kombiniert werden, sodass `\d*` bedeutet: keine(!) oder mehrere Zahlen.
 
