@@ -1,26 +1,81 @@
-# Programmieren für Geisteswissenschaftler:innen II: NLP mit Python
+# Programming for humanities scholars II: NLP with Python
 
-## Materialien zum Workshop
+## Objective:
+This workshop aims to provide humanities scholars with advanced techniques to efficiently handle, model, transform, and visually present text and tabular data. The focus will be on user-friendly yet powerful tools and libraries to make modern data analysis and visualization methods accessible.
 
-Dieses Repository beinhaltet alle relevanten Materialien für den Workshop.
+### Prerequisites:
+Participants should have basic knowledge of Python, including loops, conditions, functions, lists, dictionaries, and experience in creating a simple word counter.
 
-## Organisatorisches
+### Workshop Format:
+- **Duration:** 8 hours (including breaks)
+- **Format:** Theoretical introductions interspersed with practical exercise sessions.
+- **Tools:** Jupyter Notebooks, Python (Pandas, Matplotlib, Seaborn), with optional use of Tableau for additional visualizations, and an introduction to NLP tools like SpaCy and API requests to GPT.
 
-* `15. Juni 2023, 14-18 Uhr`  
-* `16. Juni 2023, 9-13 Uhr`
+## Schedule and Content
 
-https://www.uni-muenster.de/DH/cdh/dh-zertifikat/dh-veranstaltungen-wwu/index.html
+### Part 0: Introduction to Jupyter Notebooks (1 hour)
+- **Goals:** Familiarize participants with the Jupyter Notebook environment, which will be used throughout the workshop.
+- **Content:**
+  - Overview of Jupyter Notebooks: installation, launching, and basic navigation.
+  - Understanding and creating cells (Markdown vs Code).
+  - Running code and documenting work within notebooks.
+  - Practical exercise: Creating a simple notebook with basic Python code and Markdown documentation.
 
-Verantwortliche: Dennis Voltz, Katharina Dietz
+### Part 1: Introduction to Data Modeling (1 hour)
+- **Goals:** Understanding data structures and data modeling concepts.
+- **Content:**
+  - Brief review of Python data structures.
+  - Introduction to advanced data structures (Sets, Tuples) and their use cases.
+  - Fundamental data modeling concepts: entities, relationships.
+  - Hands-on exercise: Model a small dataset relevant to the humanities.
 
-![Copyright by Dall-E](title.png)
+### Part 2: Data Handling and Transformation with Pandas (1 hours)
+- **Goals:** Learn techniques for data preparation and transformation.
+- **Content:**
+  - Introduction to Pandas: DataFrames and Series.
+  - Loading, inspecting, and cleaning data (e.g., text files, CSV).
+  - Data transformation: filtering, sorting, grouping.
+  - Practical exercise: Apply concepts to a real dataset (e.g., literary texts, historical records).
 
-## Zusammenfassung
+### Part 3: Introduction to Data Visualization (1 hour)
+- **Goals:** Understand and apply basic data visualization techniques.
+- **Content:**
+  - Visualization concepts: choosing the right type of visualization.
+  - Introduction to Matplotlib and Seaborn for creating basic plots.
+  - Hands-on exercise: Create various charts (bar charts, line graphs, scatter plots) based on the previously transformed dataset.
 
-Da immer mehr Texte in maschinenlesbaren digitalen Formaten zur Verfügung stehen, wird es zunehmend einfacher, Texte maschinell zu analysieren. Eine zentrale Rolle spielt hierbei die Verarbeitung natürlicher Sprache (NLP). Diese Teildisziplin der Computerlinguistik, Informatik und Künstlichen Intelligenz ist entscheidend für die effektive Analyse großer Mengen unstrukturierter, textlastiger Daten. NLP unterliegt einer rasanten Entwicklung, da neue Methoden und Toolsets mit einer ständig wachsenden Datenmenge konvergieren.
+### Part 4: Interactive Data Visualization and Final Project (1 hour)
+- **Goals:** Apply interactive visualization to illustrate complex data relationships.
+- **Content:**
+  - Brief introduction to interactive visualization tools (e.g., Tableau, Plotly).
+  - Participants choose a dataset and apply what they have learned: data modeling, transformation, and visualization.
+  - Presentation and discussion of results.
 
-In diesem Workshop werden Sie die grundlegenden Konzepte des NLP und seine Rolle in aktuellen und aufkommenden Technologien erforschen. Dazu werden wir uns intensiv mit der [Python](https://docs.python.org/3/)-Bibliothek "[SpaCy](https://spacy.io/)" auseinandersetzen. Am Ende des Workshop werden Sie in der Lage sein, die grundlegendsten NLP-Prozesse, wie POS-Tagging und Named Entity Recognition, eigenständig zu entwickeln und anzuwenden.
+### Part 5: Introduction to Natural Language Processing (NLP) with SpaCy (2 hours)
+- **Goals:** Basic understanding of NLP and practical use of the SpaCy library.
+- **Content:**
+  - Overview of NLP and its applications in the humanities.
+  - Introduction to SpaCy: installation, basic usage, and common NLP tasks (tokenization, part-of-speech tagging, named entity recognition).
+  - Practical exercise: Extract named entities from a sample text and perform basic text analysis.
 
-Es ist möglich, an diesem Workshop ohne Programmierkenntnisse teilzunehmen. Um jedoch alle technischen Konzepte vollständig zu erfassen, wird empfohlen, am ersten Teil des Workshops teilzunehmen oder über rudimentäre Kenntnisse in Python zu verfügen.
+### Part 6: Making API Requests to a GPT API (1 hour)
+- **Goals:** Learn the basics of making API requests and interacting with GPT APIs for advanced text processing.
+- **Content:**
+  - Overview of APIs and their importance in data processing.
+  - Introduction to making API requests using Python's `requests` library.
+  - Demonstration: Making a request to a GPT API for text generation, summarization, or translation.
+  - Practical exercise: Participants make their own API requests and process the responses for a specific task.
 
-Der Workshop steht allen geisteswissenschaftlich Forschenden der WWU sowie Studierenden des Zertifikats Digital Humanities offen. Die Teilnehmendenzahl ist auf 20 begrenzt. Die Teilnehmenden sollten mit dem WLAN verbundene Laptops dabei haben. Der Workshop findet in Präsenz statt.
+---
+
+## Materials and Resources
+
+- **Jupyter Notebooks** for all practical exercises.
+- **Datasets** from the humanities, prepared for use in the workshop.
+- **Access to online resources** for further information and learning materials.
+
+### Notes for Participants:
+- It is recommended to bring a personal laptop with pre-installed Python and the mentioned libraries (Pandas, Matplotlib, Seaborn, SpaCy). Installation guides for these tools will be provided prior to the workshop.
+- No prior experience with Pandas, visualization tools, or NLP libraries is needed.
+
+Through this workshop, participants will be able to independently conduct data projects from conception to visual presentation and effectively analyze and interpret complex datasets using advanced Python tools.
