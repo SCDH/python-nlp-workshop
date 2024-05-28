@@ -13,7 +13,7 @@ Participants should have basic knowledge of Python, including loops, conditions,
 
 ## Schedule and Content
 
-### Part 0: Introduction to Jupyter Notebooks (1 hour)
+### Part 1: Introduction to Jupyter Notebooks (1 hour)
 - **Goals:** Familiarize participants with the Jupyter Notebook environment, which will be used throughout the workshop.
 - **Content:**
   - Overview of Jupyter Notebooks: installation, launching, and basic navigation.
@@ -21,15 +21,15 @@ Participants should have basic knowledge of Python, including loops, conditions,
   - Running code and documenting work within notebooks.
   - Practical exercise: Creating a simple notebook with basic Python code and Markdown documentation.
 
-### Part 1: Introduction to Data Modeling (1 hour)
+### Part 2: Introduction to Data Modeling (1,5 hours)
 - **Goals:** Understanding data structures and data modeling concepts.
 - **Content:**
   - Brief review of Python data structures.
-  - Introduction to advanced data structures (Sets, Tuples) and their use cases.
+  - Introduction to advanced data structures (Sets, Tuples, Lists) and their use cases.
   - Fundamental data modeling concepts: entities, relationships.
   - Hands-on exercise: Model a small dataset relevant to the humanities.
 
-### Part 2: Data Handling and Transformation with Pandas (1 hours)
+### Part 3: Data Handling and Transformation with Pandas (1,5 hours)
 - **Goals:** Learn techniques for data preparation and transformation.
 - **Content:**
   - Introduction to Pandas: DataFrames and Series.
@@ -37,34 +37,19 @@ Participants should have basic knowledge of Python, including loops, conditions,
   - Data transformation: filtering, sorting, grouping.
   - Practical exercise: Apply concepts to a real dataset (e.g., literary texts, historical records).
 
-### Part 3: Introduction to Data Visualization (1 hour)
-- **Goals:** Understand and apply basic data visualization techniques.
-- **Content:**
-  - Visualization concepts: choosing the right type of visualization.
-  - Introduction to Matplotlib and Seaborn for creating basic plots.
-  - Hands-on exercise: Create various charts (bar charts, line graphs, scatter plots) based on the previously transformed dataset.
-
-### Part 4: Interactive Data Visualization and Final Project (1 hour)
-- **Goals:** Apply interactive visualization to illustrate complex data relationships.
-- **Content:**
-  - Brief introduction to interactive visualization tools (e.g., Tableau, Plotly).
-  - Participants choose a dataset and apply what they have learned: data modeling, transformation, and visualization.
-  - Presentation and discussion of results.
-
-### Part 5: Introduction to Natural Language Processing (NLP) with SpaCy (2 hours)
+### Part 4: Introduction to Natural Language Processing (NLP) with SpaCy (2 hours)
 - **Goals:** Basic understanding of NLP and practical use of the SpaCy library.
 - **Content:**
   - Overview of NLP and its applications in the humanities.
-  - Introduction to SpaCy: installation, basic usage, and common NLP tasks (tokenization, part-of-speech tagging, named entity recognition).
-  - Practical exercise: Extract named entities from a sample text and perform basic text analysis.
+  - Introduction to SpaCy: installation, basic usage
+  - Practical exercise: Structurize a text with the help of Spacy's data format.
 
-### Part 6: Making API Requests to a GPT API (1 hour)
-- **Goals:** Learn the basics of making API requests and interacting with GPT APIs for advanced text processing.
+### Part 5: Practical Usage of Natural Language Processing (NLP) with SpaCy (2 hours)
+- **Goals:** Learn the usage of NLP and the SpaCy library.
 - **Content:**
-  - Overview of APIs and their importance in data processing.
-  - Introduction to making API requests using Python's `requests` library.
-  - Demonstration: Making a request to a GPT API for text generation, summarization, or translation.
-  - Practical exercise: Participants make their own API requests and process the responses for a specific task.
+  - Overview of NLP and its applications in the humanities.
+  - We discuss common NLP tasks (tokenization, part-of-speech tagging, named entity recognition)
+  - Practical exercise: Extract named entities from a sample text and perform basic text analysis.
 
 ---
 
