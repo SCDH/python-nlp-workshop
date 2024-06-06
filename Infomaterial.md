@@ -392,7 +392,8 @@ python_files = glob("my_directory/**/*.py", recursive=True)
 
 In diesem Beispiel werden die Funktionen `glob()` verwendet, um Dateien oder Verzeichnisse basierend auf den angegebenen Mustern zu finden. Wichtig: Die Funktion `glob()` gibt eine Liste von Dateinamen oder Verzeichnispfaden zurück, die den angegebenen Mustern entsprechen. Sie gibt NICHT die Dateien selbst zurück!
 
-Das Sternchen (`*`) steht hier als Platzhalter für beliebige Zeichen und das Fragezeichen (`?`) als Platzhalter für ein einzelnes Zeichen.
+Wildcards nutzen: Das Sternchen (`*`) steht hier als Platzhalter für beliebige Zeichen und das Fragezeichen (`?`) als Platzhalter für ein einzelnes Zeichen.  
+Diese sog. Wildcards kann man nutzen, um nach bestimmten Mustern in Dateinamen zu filtern. Beispiel: `*.txt` findet alle Textdateien.
 
 ## Dateien schreiben
 
@@ -427,6 +428,12 @@ Sie wird sowohl im Bereich NLP als auch in der Data Analysis und im Machine Lear
 Pandas hat zwei grundlegende **Datenformate**: [Dataframes](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) und [Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series). 
 **Dataframes** sind Datentabellen. Man kann man sie sich vorstellen, wie Exceltabellen. Sie bestehen aus Spalten und Zeilen. **Series** hingegen sind Listen und oft ein Ausschnitt aus einem Dataframe, etwa eine Spalte oder eine Zeile.
 
+Installieren Sie Pandas zunächst über:  
+`!pip install pandas`
+
+Anschließend importieren Sie Pandas mit der gängigen Abkürzung `pd`:
+`import pandas as pd`
+
 
 ## Pandas Cheatsheet
 
@@ -458,11 +465,16 @@ Pandas hat zwei grundlegende **Datenformate**: [Dataframes](https://pandas.pydat
 
 **Daten manipulieren**
 
-    df[col]           # Spalten "col" als Series zurückgeben
+    df[col]           # Spalte "col" als Series zurückgeben
     df[[col1, col2]]  # Spalten "col1" und "col2" als neuen DF zurückgeben
     df.iloc[0,:]      # Die erste Zeile zurückgeben
     df.iloc[0,0]      # Das erste Element der ersten Zeile zurückgeben
     s.iloc[0]         # Element an Indexposition 0 zurückgeben
+    
+**Filtern**
+
+    df[col].str.contains('foo')   # Gibt eine Maske zurück (mit True/False) ob die Zelle den Wert "foo" enthält
+    df[df[col].str.contains('foo')]  # Wendet diese Maske auf df an und gibt die Werte zurück; man bekommt einen gefilterten df
 
 # Regulare Ausdrücke / Regular Expressions (Regex)
 
