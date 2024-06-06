@@ -1,0 +1,43 @@
+KI und maschinelles Lernen
+Maschinen mit Moral: Perspektiven für die Schule?#
+29.04.2022
+Sophie Jentzsch, Mia Schepe, Leonie Meyer
+
+KI-Systeme sind schnell und effektiv in der Datenverarbeitung, aber kann ihnen ein moralischer Kompass antrainiert werden? Und was folgt daraus für die Bildung? Dazu sprachen wir mit Sophie Jentzsch.
+Ein humanoider Roboter aus den 1990er Jahren vom Massachusetts Institute of Technology (MIT), bestehend aus einem Kopf mit Halspartie.
+Maschinen, die ein Gewissen haben? Das Roboterprojekt "Kismet" wurde Ende der 1990er Jahre vom MIT als offenes lernendes System entwickelt, das sich an menschlichen sozialen Eigenschaften orientieren sollte. 
+
+Wie muss eine Maschine programmiert werden, um moralische Entscheidungen zu treffen?
+
+Sophie Jentzsch: Algorithmen werden mittlerweile in vielen Lebensbereichen eingesetzt, wo sie automatisiert Entscheidungen treffen. Es gibt zahlreiche wissenschaftliche Arbeiten, die nachweisen, dass Machine-Learning-Modelle, die solch einer Programmierung zugrunde liegen, ungewollt und unbewusst menschliche Stereotype übernehmen. Neben faktischen Informationen, die aus Daten herausgezogen werden, werden in der Textverarbeitung zum Teil auch Genderstereotype gelernt wie "Eine Frau ist eher eine Sekretärin, und ein Mann ist eher ein Manager." Das ist jetzt nur eines von vielen Beispielstereotypen, die eine KI unbewusst aus Texten mitlernen könnte. Auch in Einstellungsverfahren oder bei der Vergabe von Krediten spielt das eine Rolle. Überall da muss hingeschaut werden, ob durch angelernte Bias[1] gegebenenfalls Menschen oder Personengruppen diskriminiert werden.
+
+Unsere Idee bei "Moral Choice Machine" war zu schauen, ob KIs auch moralische Bewertungen lernen können. Wir konnten zeigen, dass man einer KI tatsächlich Moral in Form "positiver" Stereotype beibringen kann. Beispielsweise waren das Bewertungen wie "Es ist gut, jemanden zu lieben, es ist schlecht, jemanden zu töten" – also so ganz allgemeine Dinge, aber das war schon ein kleiner Durchbruch.
+
+Was bedeutet diese Erkenntnis für die Arbeit mit Künstlicher Intelligenz? Können moralische Entscheidungen zukünftig an KIs abgegeben werden?
+
+Sophie Jentzsch: Wichtig ist dabei, dass die moralische Bewertung, die man aus der KI rausholt, stark davon abhängt, wie man überhaupt fragt und welche Texte man im Machine-Learning-Prozess benutzt. Wenn wir etwa moderne Literatur als Datenbasis nehmen, ist darin eine andere Moralvorstellung enthalten als in NS-Literatur.
+
+Man darf daher nicht glauben, dass KI eine Instanz sein kann, die philosophische Fragen beantwortet oder moralische Entscheidungen übernimmt. Die Erkenntnis ist lediglich, dass es möglich ist, einer Künstlichen Intelligenz eine Art moralischen Kompass mitzugeben. Sie könnte als eine zusätzliche Instanz funktionieren, die bei allen Entscheidungen checkt: "Könnte das jetzt kritisch sein oder nicht?"
+Portraitbild von der Wissenschaftlerin Sophie Jentzsch. Sie lächelt in die Kamera und steht seitlich vor einer industriell aussehenden Wand.
+
+Wieso sollte sich Politik-Unterricht mit Themen wie einprogrammierten Bias oder gesellschaftlichen Einflüssen auf KI beschäftigen?
+
+Sophie Jentzsch: Die Konfrontation mit KI im Alltag ist mittlerweile unausweichlich. Um zu verstehen, was passiert und welche Gefahren in solchen Systemen drinstecken, braucht es Aufklärung. Die Leute sind dem ausgeliefert, wenn sie diese Kompetenz nicht haben.
+
+In der öffentlichen Diskussion zu KI stelle ich oft fest, dass viele gar nicht so richtig Ahnung davon haben, was KI ist und welche Unsicherheiten oder Risiken maschinelles Lernen mit sich bringt. Wenn KIs eine Fehlentscheidung treffen, ist der Aufschrei immer groß, dabei hat den Fehler gar nicht das KI-System gemacht, sondern der Fehler ist durch Stereotype unserer Gesellschaft begründet. Wie im Fall von Externer Link: Amazons Recruiting-Software, die über KI funktioniert und dabei bestehende Benachteiligungen von Frauen reproduzierte, indem sie beispielsweise mit Frauen assoziierte Begriffe in Bewerbungen negativ bewertete. Im Politik-Unterricht kann entsprechend untersucht und diskutiert werden, welche Art von Diskriminierung in Daten es gibt.
+
+Der beste Einsatz von KI im Unterricht wäre meiner Meinung nach, wenn Schülerinnen und Schüler selbst mal eine KI programmieren und verstehen würden, wie die Pipeline aufgebaut ist, durch die die Daten fließen. So könnte ein grundlegendes Verständnis für die Technologie geschaffen werden. Mir liegt auch persönlich am Herzen, dass Informatik und Mathe und keine ausschließlichen Jungs-Gebiete sind und dass es sich für alle lohnt, sich damit auseinanderzusetzen.
+
+Könnte eine KI Aufgaben im Schulunterricht übernehmen? Was wäre dabei zu beachten?
+
+Sophie Jentzsch: Zunächst darf es auf keinen Fall sein, dass Künstliche Intelligenz nur als Mittel und nicht als Thema behandelt wird. Andersherum wäre das eher möglich. Darüber hinaus kann ich mir vorstellen, dass eine KI Aufgaben übernehmen kann, wenn es um inhaltliche Aufgaben oder Informationsvermittlung geht. Was diese faktischen Informationen wie mathematische Probleme oder feststehende Zusammenhänge angeht, sind die Systeme eben schon sehr gut. Eine KI kann bewerten, ob eine Rechnung oder eine Herleitung korrekt ist, und kann sehr sicher faktische Fragen beantworten, wie "Was ist die Hauptstadt von ..." oder "Wer war Bundeskanzler im Jahr …".
+
+Gefährlich wird es beim Einsatz von KI im Unterricht in sensiblen Bereichen, wo die Regeln nicht klar definiert sind. Gerade im pädagogischen Bereich, wo Lehrkräfte auf ihre Intuition oder ihr Bauchgefühl hören, müssen zwischenmenschliche Fähigkeiten eine Rolle spielen. Das sind die Bereiche, in denen KI Schwächen hat. Eine KI kann hier unterstützend eingesetzt werden, aber immer mit dem "Human in the Loop". Das meint, dass immer eine Expertin oder ein Experte dabeisitzt und schaut, wie die KI Entscheidungen fällt.
+
+Wie kann in der Schule über den Unterricht hinaus KI genutzt werden?
+
+Sophie Jentzsch: Eine KI könnte zum Beispiel untersuchen, wie die Schulverläufe von unterschiedlichen Schülerinnen und Schülern aussehen, also welchen Einfluss bestimmte Umweltfaktoren auf ihre Leistung haben. Wenn beispielsweise ein KI-gestütztes Lernsystem analysiert, dass bei einer Schülerin die Leistungen sinken, dann könnte dem Lehrer zurückgemeldet werden, dass möglicherweise ein Problem besteht. Dieser kann dann entscheiden, was er mit der Information macht.
+
+Außerdem könnte ein Apparat an Bürokratie durch solche Algorithmen ersetzen werden, sofern die Daten digital vorliegen. Die Optimierung von Stundenplänen finde ich dafür ein tolles Beispiel sowie ganz allgemein die Verteilung von Ressourcen wie Zeit, Geld oder Arbeitskraft und vielleicht auch Abrechnungen oder die Pflege von Schülerdatenbanken. Dann könnte man die Daten heute schon ganz anders nutzen und vereinfachen. Und in 50 Jahren können wir dann vielleicht darüber nachdenken, ob KI-Systeme ganze Unterrichtseinheiten übernehmen könnten. Möglicherweise steht die Lehrkraft dann nicht mehr leitend vor der Klasse, sondern ist als Ansprechpartner und Lernbegleiter mitten unter den Schülerinnen und Schülern.
+
+Das Interview führten Mia Schepe und Leonie Meyer.

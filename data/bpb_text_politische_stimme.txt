@@ -1,0 +1,52 @@
+Digitale Zivilgesellschaft
+"Digitale Tools können Menschen eine Stimme geben, die politisch wenig gehört werden."
+06.10.2017
+Lya Cuéllar
+
+Führen digitale Tools tatsächlich zu mehr Beteiligung der Zivilgesellschaft? Im Interview gibt Helene Hahn von der Open Knowledge Foundation Deutschland eine Einschätzung und zeigt Beispiele auf.
+
+werkstatt.bpb.de: Was bedeutet digitale Partizipation für Sie?
+
+Helene Hahn: Sich an gesellschaftspolitischen Fragen und Entscheidungen zu beteiligen und vor allem an öffentlichen Debatten informiert teilzunehmen, verstehe ich als Partizipation. Digitale Partizipation bietet uns hierfür neue Möglichkeiten. Digitale Wege sind kürzer und machen es einfacher, sich zu informieren, nachzufragen und zu gestalten. Es ist ein Weg, Meinungen zu äußern und an Gesellschaftspolitik mitzuwirken.
+
+Was macht die Open Knowledge Foundation Deutschland im Bereich digitale Partizipation?
+
+Die Externer Link: Open Knowledge Foundation Deutschland ist ein gemeinnütziger Verein, der sich für mehr Beteiligung, Transparenz und Informationsfreiheit einsetzt. Wir möchten mit digitalen Tools Menschen dazu befähigen, Gesellschaft aktiv mitzugestalten. Mit unseren Projekten schaffen wir für zivilgesellschaftliches Handeln die digitale Infrastruktur. Wir sind Teil einer international aktiven Open Data-Community, die Daten für soziale Zwecke nutzt.
+Digitale Partizipation beschränkt sich nicht nur auf soziale Medien oder die Teilnahme an einer Online-Petition. Es geht vor allem darum, das Digitale als Raum für kreative Ausdrucksformen zu begreifen und diesen als Zivilgesellschaft zu nutzen: Hierfür werden digitale Fähigkeiten (data literacy) immer wichtiger, also die Frage: Wie kann ich digitale Informationen und Tools für soziale Anliegen kritisch nutzen? Mit der Externer Link: Datenschule haben wir ein Bildungsprogramm für gemeinnützige Organisationen zu den Themen Daten und Technologien ins Leben gerufen. Gemeinsam entwickeln wir datengestützte Projekte wie Externer Link: JedeSchule.de und konzipieren Workshops wie den Externer Link: StoryHunt rund um die verantwortungsvolle Nutzung von Daten und digitalen Tools. Viele NGOs fangen erst an, die Chancen der Digitalisierung für sich zu entdecken, und auf diesem Weg möchten wir sie begleiten. Mit Interner Link: FragDenStaat
+ermöglichen wir es beispielsweise, auf Grundlage des Informationsfreiheitsgesetzes (IFG) Anfragen an deutsche Behörden zu stellen. Die Anfragen der Bürgerinnen und Bürger und die Antworten der Behörden werden auf der Webseite veröffentlicht. Die Beteiligung bei FragDenStaat ist enorm, wir erleben ein großes öffentliches Interesse: Bei unseren Kampagnen wie Externer Link: Gläserne Gesetze oder Externer Link: Frag das Jobcenter haben über 2500 Menschen Dokumente angefragt und dazu beigetragen, zugrundeliegende Gesetze wie die Informationsfreiheit in Deutschland zu stärken und Rechenschaft einzufordern.
+
+Warum sind digitale Tools wichtig für politische Partizipation?
+
+Digitale Tools sind kein Allheilmittel, die all unsere Probleme lösen. Sie können aber dabei helfen, Themen zu adressieren, die in der Politik keine oder wenig Beachtung finden. Die größten Chancen sehe ich darin, durch digitale Möglichkeiten denjenigen Menschen eine Stimme zu geben, die politisch zu wenig gehört werden.
+Ein bekanntes Beispiel hierfür ist das Projekt Externer Link: wheelmap.org der Sozialhelden, das mithilfe einer interessierten Community rollstuhlgerechte Orte auf einer Karte verzeichnet. Durch dieses Tool wird Barrierefreiheit im Detail sichtbar, denn es wird gezeigt, welche Orte gut zugänglich sind und welche nicht. Ein internationales Beispiel ist "I Walk Freely" – eine App, die es Nutzerinnen und Nutzern im Kosovo ermöglicht, Fälle sexueller Belästigung zu melden: die nutzergenerierten Daten werden gesammelt und analysiert. Eine Abbildung zeigt dann zum Beispiel, welche Straßen zu welchen Uhrzeiten besonders gefährlich sind. Anschließend wird gemeinsam mit der Verwaltung nach möglichen Lösungswegen gesucht. Mit den Daten wird das Thema politisch auf die Agenda gesetzt, denn offizielle Statistiken zu sexueller Belästigung gibt es in Kosovo bisher nicht.
+
+"Digitale Fähigkeiten – data literacy – werden für die digitale Partizipation immer wichtiger."
+Zitat - Helene Hahn, Projektleiterin Open Knowledge Foundation
+
+"Digitale Tools sind kein Allheilmittel. Sie können aber dabei helfen, Themen zu adressieren, die in der Politik keine oder wenig Beachtung finden."
+Zitat - Helene Hahn, Projektleiterin Open Knowledge Foundation
+
+"Mehr Partizipation bedeutet nicht automatisch gute Partizipation."
+Zitat - Helene Hahn, Projektleiterin Open Knowledge Foundation
+
+"Das Digitale verschafft uns einen besseren Zugang zu Informationen und gibt uns einen erweiterten Raum für Mitsprache."
+Zitat - Helene Hahn, Projektleiterin Open Knowledge Foundation
+
+Digitale Werkzeuge sorgen aber auch für mehr Transparenz und Rechenschaft vonseiten der Regierung. Politische Entscheidungsprozesse sind für Bürgerinnen und Bürger, aber auch politische Organisationen und Initiativen oft nur schwer zu überblicken. Digitale Tools können hier Abhilfe schaffen. Auf Externer Link: OffenesParlament.de machen wir beispielsweise die Plenarprotokolle des Deutschen Bundestags durchsuchbar und analysieren, welche Themen in der letzten Legislaturperiode verhandelt wurden – etwa der Abgasskandal oder die Griechenlandkrise. Aber nicht nur der Zugang zu öffentlichen Daten ist wichtig, auch gemeinschaftlich gesammelte Daten können der Zivilgesellschaft dabei helfen, Argumente und Forderungen an die Politik besser zu kommunizieren. Wie das gut funktioniert, zeigen Citizen Science-Projekte wie Externer Link: luftdaten.info. Weil Luftverschmutzung in vielen Städten ein Problem ist und nur wenige regionale Informationen zur Luftqualität vorliegen, entwickelten die Aktivistinnen und Aktivisten des Stuttgarter OKLabs ihre eigene Messstation. Die Komponenten können kostengünstig bestellt und einfach nachgebaut werden. Je mehr Menschen ihr Gerät an Fenstern ihrer Wohnung anbringen, desto mehr lokale Daten werden über die Sensoren erhoben. Die gemeinschaftlich gesammelten Daten werden in Echtzeit auf einer Webseite visualisiert. So wird Feinstaub sichtbar und die Diskussion über das Umwelt- und Gesundheitsproblem kann evidenzbasiert geführt werden.
+
+Was leisten digitale Tools für die Zivilgesellschaft – führen sie tatsächlich zu mehr Partizipation?
+
+Digitale Tools führen nicht automatisch zu mehr Beteiligung. Sie können ein Weg für verschiedene Formen der Partizipation sein, wie die oberen Beispiele zeigen. Einige Tools sind sehr leicht zu bedienen und schaffen es, Hürden abzubauen – andere wiederum nicht. Auch hier sind digitale Kompetenzen entscheidend, wenn es darum geht, Informationen und Tools kritisch zu nutzen und hinter die "black box" zu schauen. Digitale Partizipation braucht also digitale Kenntnisse. Wir sollten Tools nach dem zugrundeliegenden Konzept bewerten – also stärker aus einer gesellschaftlichen Perspektive und weniger aus einer rein technischen: Welches gesellschaftliche Problem versuchen wir zu lösen? Was kann durch digitale Wege geleistet werden, das vorher nicht möglich war? Wie können wir unsere Zielgruppen schon bei der Konzeption beteiligen und nicht erst beim Endprodukt?
+Gleichzeitig bedeutet mehr Partizipation nicht automatisch gute Partizipation. Ich denke, was wir eigentlich als Gesellschaft wollen, ist, dass sich mehr Menschen informierter beteiligen und dass auf dieser Grundlage ein qualitativ guter Austausch ermöglicht wird.
+
+Was machen gute Tools oder Plattformen zur digitalen Partizipation aus?
+
+Vor allem, dass sie partizipativ konzipiert und entwickelt wurden: Es geht nicht um ein "digitales Endprodukt", wo ich als Nutzerin oder Nutzer einen Kommentar hinterlassen darf. Es geht darum, Entscheidungsprozesse zu öffnen, Meinungen einzuholen und mit diesen aktiv zu arbeiten. Nicht nur das Endprodukt, sondern der gesamte Entwicklungsprozess von der Problemstellung bis zur Umsetzung sollte partizipativ gestaltet werden.
+
+Wie unterscheiden sich analoge und digitale Partizipation? Lassen sich beide Formen verknüpfen?
+
+Online zu sein gehört zu unserem Alltag, die Grenzen zwischen analog und digital sind hier fließend. Wenn ich mich engagieren möchte, ist meine Überlegung nicht "Mache ich das digital oder analog?", sondern ich nutze die Wege, die mir zur Verfügung stehen. Das Digitale wird das Analoge nicht ersetzen. Es verschafft uns aber einen besseren Zugang zu Informationen und gibt uns einen erweiterten Raum für Mitsprache. Erfolgreiche Beteiligungsprojekte schaffen es, das Beste aus beiden Welten zu vereinen.
+
+Welche besonderen Herausforderungen und Risiken beinhaltet digitale Partizipation?
+
+Nur weil es digitale Tools und Informationen gibt, heißt es noch lange nicht, dass wir wissen, wie wir sie lesen, hinterfragen und nutzen können. Wie schaffen wir es also, Menschen unabhängig von Alter, Herkunft und Geschlecht dazu zu befähigen, sich mündig durch die digitale Welt zu bewegen? Ich denke, wir stehen mit dieser Frage bereits vor der größten gesellschaftlichen Herausforderung unserer Zeit, nämlich digitale Bildung und digitale Fähigkeiten an alle zu vermitteln.
